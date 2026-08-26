@@ -1,9 +1,13 @@
-media: public
+media:
+  input: public
+  output: /
+
 content:
   - name: blogs
     label: Blogs
-    type: collection
+    filename: "{primary}.md"
     path: src/content/blog
+    type: collection
     fields:
       - name: title
         type: string
