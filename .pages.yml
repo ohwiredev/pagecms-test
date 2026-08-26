@@ -17,9 +17,9 @@ content:
         options:
           maxlength: 280
           
-      - name: pubDate
-        type: date
-
       - name: body
         label: Body
         type: rich-text
+        
+      - name: pubDate
+        type: date
