@@ -20,11 +20,11 @@ content:
       - name: pubDate
         type: date
 
-        - name: body
-  label: Body
-  type: rich-text
-  options:
-    media: content_images
-    path: public/images/blog
-    rename: true
-    switcher: true
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          media: content_images
+          path: public/images/blog
+          rename: true
+          switcher: true
