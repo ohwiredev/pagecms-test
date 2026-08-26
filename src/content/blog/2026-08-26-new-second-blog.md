@@ -1,5 +1,5 @@
 ---
-title: new second blog
+title: New second blog
 description: |+
   # CI/CD Pipeline
 
