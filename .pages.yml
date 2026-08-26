@@ -24,4 +24,5 @@ content:
         type: rich-text
         
       - name: pubDate
+        label: Published Date
         type: date
