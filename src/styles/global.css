@@ -1,0 +1,107 @@
+:root {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #172033;
+  background: #f8fafc;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+body {
+  min-width: 20rem;
+  background: #f8fafc;
+}
+
+a {
+  color: #0f766e;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+header,
+nav,
+main,
+footer {
+  width: min(100% - 2rem, 72rem);
+  margin-inline: auto;
+}
+
+header {
+  padding-block: 1.5rem;
+  border-bottom: 1px solid color-mix(in srgb, #172033 15%, transparent);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 1rem;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+main {
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+main > * + * {
+  margin-top: 3rem;
+}
+
+article,
+section {
+  max-width: 44rem;
+}
+
+article > * + *,
+section > * + * {
+  margin-top: 1rem;
+}
+
+h1 {
+  max-width: 12ch;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 0.95;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  line-height: 1.1;
+}
+
+p,
+li {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+footer {
+  padding-block: 2rem;
+  border-top: 1px solid color-mix(in srgb, #172033 15%, transparent);
+  color: color-mix(in srgb, #172033 65%, transparent);
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.netlify/
+.vercel/
+.wrangler/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+bun.lock
+bun.lockb
