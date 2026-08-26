@@ -8,6 +8,8 @@ content:
     filename: "{primary}.md"
     path: src/content/blog
     type: collection
+    view:
+      fields: [ title, draft, date ]
     fields:
       - name: title
         type: string
