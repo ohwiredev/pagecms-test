@@ -1,0 +1,13 @@
+media: public
+content:
+  - name: blogs
+    label: Blogs
+    type: collection
+    path: content/blog
+    fields:
+      - name: title
+        type: string
+      - name: description
+        type: rich-text
+      - name: pubDate
+        type: date
